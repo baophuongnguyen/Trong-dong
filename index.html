@@ -4,26 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trống Đồng AR</title>
+  <!-- Load model-viewer library -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <style>
     body {
-      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      margin: 0;
       background-color: #f0f0f0;
     }
   </style>
 </head>
 <body>
+  <!-- Model Viewer Element -->
   <model-viewer 
-    src="trong_dong.glb" 
+    src="trong_ong_ong_son__dong_son_bronze_drum bản nén.glb" 
+    ios-src="Trống_Đồng_Đông_Sơn__Dong_Son_bronze_drum.usdz"
+    alt="A 3D model of the Trống Đồng"
     ar 
     ar-modes="scene-viewer quick-look webxr"
     camera-controls 
-    auto-rotate 
-    alt="3D model of Trống Đồng">
+    auto-rotate>
   </model-viewer>
 </body>
 </html>
+
