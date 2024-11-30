@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trống Đồng AR</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer 
+    src="trong_dong.glb" 
+    ar 
+    ar-modes="scene-viewer quick-look webxr"
+    camera-controls 
+    auto-rotate 
+    alt="3D model of Trống Đồng">
+  </model-viewer>
+</body>
+</html>
